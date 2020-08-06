@@ -22,7 +22,7 @@ I can slow down or speed up the fade in two simple operations: move the cursor t
 
 With my Razer Naga mouse, this is an incredibly swift and streamlined process. 
 
-<img src="Quickfade.gif">
+<img src="quickfade.gif">
 
 I can the positions of the mixes very quickly too. If I'm dipping for a bit of sync and I want to move the sync up a bit, I just go into trim mode (The `[` key on my keyboard) on A9 and A10 and move the match cut. 
 
@@ -32,7 +32,7 @@ So moving a dissolve 12 frames ealier is as simple as pressing:
 - `-12` (move edit by -12 frames), 
 - `Escape` (leave trim mode).
 
-<img src="MoveDissolve.gif">
+<img src="Movedissolve.gif">
 
 I know I've seen other editors use dissolves like this: I've seen their timelines. Personally, I use this method in preference to rubber banding for a few reasons: 
 
