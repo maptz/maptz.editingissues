@@ -69,7 +69,7 @@ Quick overview. It's fast, and very un-fiddly.
 
 I thought I'd get up and running mixing in Premiere Pro quite quickly as I found the  `Apply Default Audio Transition To Playhead` command in the keybaord settings nad I mapped it to `Shift+3`. This looks like the right operation, but it's not. It works when you're fading tracks up or down to silence, but does not operate correctly when mixing between levels or between two different tracks. This command doesn't add a transition between two clips, but a fade to zero at the cut, and then a cut to the level at the cut.
 
-The fastest way to add a real dissolve between two clips appears to be to select all the audio clips using the Lasso and press `Shift+Shift+D` to add a default audio dissolve. Then you have to multi-select the dissolves themselves (v fiddly) and double click them to change the dissolve length. What is an operation that I can achieve in less than a second in Avid takes 10 seconds in Premiere Pro. 
+The fastest way to add a real dissolve between two clips appears to be to select all the audio clips using the Lasso and press `Ctrl+Shift+D` to add a default audio dissolve. Then you have to multi-select the dissolves themselves (v fiddly) and double click them to change the dissolve length. What is an operation that I can achieve in less than a second in Avid takes 10 seconds in Premiere Pro. 
 
 It's even fiddlier to adjust the offset of the transition (i.e. where it starts relative to the edit), especially where you might have multiple audio tracks. 
 
