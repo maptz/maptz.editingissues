@@ -16,9 +16,9 @@ In Avid, I use audio transitions for Level Mixing and for Short audio transition
 
 In Avid, I mix my sequences using clip Levels and placing dissolves (transitions) on through-edits. 
 
-Imagine I have a bit of music on A9/10 (or a bit of sync on A1-4) that needs to dip, in Avid I add a through edit and go to the mixer to set the level after the cut. I move the cursor to where I want to start the level dip, fix the level in the mixer and click `Ctrl+3` which I've mapped to `Fade to cut`. 
+Imagine I have a bit of music on A9/10 (or a bit of sync on A1-4) that needs to dip, in Avid I add a through edit and go to the mixer to set the level after the cut. I move the cursor to where I want to start the level dip, fix the level in the mixer and click `Shift+3` which I've mapped to `Fade to cut`. 
 
-I can slow down or speed up the fade in two simple operations: move the cursor to where I want the fade to start and click `Ctrl+3` to overwrite the existing fade with a new one. 
+I can slow down or speed up the fade in two simple operations: move the cursor to where I want the fade to start and click `Shift+3` to overwrite the existing fade with a new one. 
 
 With my Razer Naga mouse, this is an incredibly swift and streamlined process. 
 
@@ -48,15 +48,15 @@ I know I've seen other editors use dissolves like this: I've seen their timeline
 
 I use short transitions to soften audio cuts in audio. Say I've got a cut between two bits of interview, but there's a short pop or a difference in background noise. 
 
-In Avid, I select my sync tracks (say A1,2,7,8)  then I click `Ctrl+1` on my keyboard. This maps to `Add Quick Dissolve`. This brings up a dialog box with a duration in it, and the textbox with the duration is already selected, so I then tap keyboard `3`, or `5` or `10`, or wahtever to set the audio mix to the appropriate number of frames frames (the precise count depends on the precise sound difference I'm trying to soften). Assuming I've got the right tracks selected, this is 3 button clicks to get a dissolve on the four tracks: 
+In Avid, I select my sync tracks (say A1,2,7,8)  then I click `Shift+1` on my keyboard. This maps to `Add Quick Dissolve`. This brings up a dialog box with a duration in it, and the textbox with the duration is already selected, so I then tap keyboard `3`, or `5` or `10`, or wahtever to set the audio mix to the appropriate number of frames frames (the precise count depends on the precise sound difference I'm trying to soften). Assuming I've got the right tracks selected, this is 3 button clicks to get a dissolve on the four tracks: 
 
-- `Ctrl+1`, `3`, `Enter`. Done!
+- `Shift+1`, `3`, `Enter`. Done!
 
 <img src="AddTransition.gif">
 
 If I haven't quite got the dissolve length right,  I just go through exactly the same process again with a different frame count and it overwrites the existing transitions: 
 
-- `Ctrl+1`, `5`, `Enter`. 
+- `Shift+1`, `5`, `Enter`. 
 
 With my mouse with a number pad (Razor Naga), I can do this without ever touching the keyboard. 
 
@@ -67,9 +67,9 @@ Quick overview. It's fast, and very un-fiddly.
 
 ## Potential Solutions
 
-I thought I'd get up and running mixing in Premiere Pro quite quickly as I found the  `Apply Default Audio Transition To Playhead` command in the keybaord settings nad I mapped it to `Ctrl+3`. This looks like the right operation, but it's not. It works when you're fading tracks up or down to silence, but does not operate correctly when mixing between levels or between two different tracks. This command doesn't add a transition between two clips, but a fade to zero at the cut, and then a cut to the level at the cut.
+I thought I'd get up and running mixing in Premiere Pro quite quickly as I found the  `Apply Default Audio Transition To Playhead` command in the keybaord settings nad I mapped it to `Shift+3`. This looks like the right operation, but it's not. It works when you're fading tracks up or down to silence, but does not operate correctly when mixing between levels or between two different tracks. This command doesn't add a transition between two clips, but a fade to zero at the cut, and then a cut to the level at the cut.
 
-The fastest way to add a real dissolve between two clips appears to be to select all the audio clips using the Lasso and press `Ctrl+Shift+D` to add a default audio dissolve. Then you have to multi-select the dissolves themselves (v fiddly) and double click them to change the dissolve length. What is an operation that I can achieve in less than a second in Avid takes 10 seconds in Premiere Pro. 
+The fastest way to add a real dissolve between two clips appears to be to select all the audio clips using the Lasso and press `Shift+Shift+D` to add a default audio dissolve. Then you have to multi-select the dissolves themselves (v fiddly) and double click them to change the dissolve length. What is an operation that I can achieve in less than a second in Avid takes 10 seconds in Premiere Pro. 
 
 It's even fiddlier to adjust the offset of the transition (i.e. where it starts relative to the edit), especially where you might have multiple audio tracks. 
 
